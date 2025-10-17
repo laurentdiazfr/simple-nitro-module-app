@@ -1,0 +1,28 @@
+{
+  "$schema": "https://nitro.margelo.com/nitro.schema.json",
+  "cxxNamespace": [
+    "simplelib"
+  ],
+  "ios": {
+    "iosModuleName": "NitroSimpleLib"
+  },
+  "android": {
+    "androidNamespace": [
+      "simplelib"
+    ],
+    "androidCxxLibName": "NitroSimpleLib"
+  },
+  "autolinking": {
+    "Test1": {
+      "swift": "HybridTest1",
+      "kotlin": "HybridTest1"
+    },
+    "Test2View": {
+      "swift": "HybridTest2View",
+      "kotlin": "HybridTest2View"
+    }
+  },
+  "ignorePaths": [
+    "**/node_modules"
+  ]
+}
