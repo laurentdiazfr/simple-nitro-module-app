@@ -8,6 +8,8 @@
 import { StatusBar, StyleSheet, useColorScheme, View, Text } from 'react-native';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { HybridTest1, HybridTest2View } from 'simple-lib';
+
+
 function App() {
   const isDarkMode = useColorScheme() === 'dark';
 
